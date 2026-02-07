@@ -161,7 +161,7 @@ export default function AuthPage() {
                                     id="name"
                                     name="name"
                                     label="Full Name"
-                                    placeholder="John Doe"
+                                    placeholder="Example Name"
                                     icon="person"
                                     value={signupData.name}
                                     onChange={handleSignupChange('name')}
@@ -176,7 +176,7 @@ export default function AuthPage() {
                                     id="email"
                                     name="email"
                                     label="Email Address"
-                                    placeholder="name@company.com"
+                                    placeholder="example@example.com"
                                     icon="mail"
                                     value={signupData.email}
                                     onChange={handleSignupChange('email')}
@@ -298,7 +298,7 @@ export default function AuthPage() {
                                     id="login-email"
                                     name="email"
                                     label="Email Address"
-                                    placeholder="name@company.com"
+                                    placeholder="example@example.com"
                                     icon="mail"
                                     value={loginData.email}
                                     onChange={handleLoginChange('email')}
